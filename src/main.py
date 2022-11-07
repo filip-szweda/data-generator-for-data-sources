@@ -1,5 +1,5 @@
 from random import randint, uniform
-from datetime import date
+from datetime import date, timedelta
 
 from faker import Faker
 from faker_food import FoodProvider
@@ -69,4 +69,4 @@ class AdXML:
         self.ad_id = ad_id
         self.clicks_per_days = []
         for single_day in daterange(start_date, end_date):
-            self.clicks_per_days.append(ClicksPerDay(single_day))
+            self.clicks_per_days.append(self.ClicksPerDay(single_day))
