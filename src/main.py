@@ -1,5 +1,6 @@
 from random import randint, uniform
 from datetime import date, timedelta
+from copy import deepcopy
 
 from faker import Faker
 from faker_food import FoodProvider
@@ -70,3 +71,30 @@ class AdXML:
         self.clicks_per_days = []
         for single_day in daterange(start_date, end_date):
             self.clicks_per_days.append(self.ClicksPerDay(single_day))
+
+
+ORDERS_COUNT = 1000
+DISH_COUNT = AD_COUNT = 100
+
+# these classes are independent from others
+orders = []
+ads = []
+for id in range(ORDERS_COUNT):
+    orders.append(OrderSQL(id))
+
+for id in range(AD_COUNT):
+    ads.append(AdSQL(id))
+
+# DishSQL
+# UserXML
+# AdXML
+
+# OrdersItemSQL
+# PromotionSQL
+
+dishes = []
+ads_copy = deepcopy(ads)
+for id in range(DISH_COUNT):
+    ad = random.choice(ads_copy)
+    ads_copy.remove(ad)
+    dishes.append(DishSQL(id, ad.ad_id))
