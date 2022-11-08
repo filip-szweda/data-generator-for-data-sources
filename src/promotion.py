@@ -1,6 +1,7 @@
 from datetime import date
 import random
 
+
 class Promotion:
     def __init__(self, fake, promotion_id, dish_id):
         self.promotion_id = promotion_id

@@ -1,5 +1,6 @@
 import random
 
+
 class Dish:
     def __init__(self, fake, dish_id, ad_id):
         self.dish_id = dish_id

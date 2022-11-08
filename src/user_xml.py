@@ -1,5 +1,6 @@
 from utils import fake_phone_number
 
+
 class UserXML:
     def __init__(self, fake):
         self.phone_nb = fake_phone_number(fake)
