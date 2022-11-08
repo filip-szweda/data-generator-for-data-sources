@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified"
+           elementFormDefault="qualified">
+
+    <xs:element name="api-data">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="ads" type="adsType"/>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="adsType">
+        <xs:sequence>
+            <xs:element name="ad" type="adType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="adType">
+        <xs:sequence>
+            <xs:element name="id">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="[0-9]{10}"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="numberOfClicksEveryDay" type="numberOfClicksEveryDayType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="numberOfClicksEveryDayType">
+        <xs:sequence>
+            <xs:element name="day" type="dayType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+
+
+    <xs:attribute name="date">
+        <xs:simpleType>
+            <xs:list itemType="xs:date"/>
+        </xs:simpleType>
+    </xs:attribute>
+
+    <xs:complexType name="dayType">
+        <xs:simpleContent>
+            <xs:extension base="xs:integer">
+                <xs:attribute ref="date" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+</xs:schema>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api-data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="api_serwis_reklamowy.xsd">
+            <ads>
+                <ad>
+                    <id>0000000001</id>
+                    <numberOfClicksEveryDay>
+                        <day date="1997-05-16">12</day>
+                        <day date="1997-05-17">12</day>
+                        <day date="1997-05-18">12</day>
+                    </numberOfClicksEveryDay>
+                </ad>
+            </ads>
+</api-data>
