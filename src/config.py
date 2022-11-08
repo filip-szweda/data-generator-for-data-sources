@@ -1,0 +1,6 @@
+OUT_PATH = "./out/"
+DATABASE_OUT = OUT_PATH + "database/"
+API_OUT = OUT_PATH + "api/"
+ORDERS_COUNT = 1000
+AD_COUNT = 100
+USER_COUNT = 5000

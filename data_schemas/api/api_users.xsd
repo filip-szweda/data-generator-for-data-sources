@@ -2,13 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified"
            elementFormDefault="qualified">
 
-    <xs:element name="api-data">
-        <xs:complexType>
-            <xs:all>
-                <xs:element name="users" type="usersType"/>
-            </xs:all>
-        </xs:complexType>
-    </xs:element>
+    <xs:element name="users" type="usersType"/>
 
     <xs:complexType name="usersType">
         <xs:sequence>
@@ -35,7 +29,7 @@
             <xs:element name="phoneNumber">
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
-                        <xs:pattern value="[0-9]{3}-[0-9]{3}-[0-9]{3}"/>
+                        <xs:pattern value="[0-9]{9}"/>
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>

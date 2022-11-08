@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<api-data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-              xsi:noNamespaceSchemaLocation="api_serwis_dostawczy.xsd">
-              <users>
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="api_users.xsd">
                 <user>
                     <firstName>Filip</firstName>
                     <lastName>Szweda</lastName>
@@ -12,5 +11,4 @@
                     <lastName>Grzonka</lastName>
                     <phoneNumber>999-999-100</phoneNumber>
                 </user>
-              </users>
-</api-data>
+</users>

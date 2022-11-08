@@ -2,13 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified"
            elementFormDefault="qualified">
 
-    <xs:element name="api-data">
-        <xs:complexType>
-            <xs:all>
-                <xs:element name="ads" type="adsType"/>
-            </xs:all>
-        </xs:complexType>
-    </xs:element>
+    <xs:element name="ads" type="adsType"/>
 
     <xs:complexType name="adsType">
         <xs:sequence>
@@ -18,18 +12,12 @@
 
     <xs:complexType name="adType">
         <xs:sequence>
-            <xs:element name="id">
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:pattern value="[0-9]{10}"/>
-                    </xs:restriction>
-                </xs:simpleType>
-            </xs:element>
-            <xs:element name="numberOfClicksEveryDay" type="numberOfClicksEveryDayType"/>
+            <xs:element name="id" type="xs:integer"/>
+            <xs:element name="clicksPerDay" type="clicksPerDayType"/>
         </xs:sequence>
     </xs:complexType>
 
-    <xs:complexType name="numberOfClicksEveryDayType">
+    <xs:complexType name="clicksPerDayType">
         <xs:sequence>
             <xs:element name="day" type="dayType" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
