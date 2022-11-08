@@ -27,6 +27,7 @@ class Generator:
 
         self.dish_id = 0
         self.promotion_id = 0
+        self.orders_item_id = 0
 
     def generate(self):
         for _ in range(c.USER_COUNT):
@@ -48,7 +49,8 @@ class Generator:
 
         for order in self.orders:
             for _ in range(random.randint(1, 5)):
-                self.orders_items.append(OrdersItem(random.choice(self.dishes).dish_id, order.order_id))
+                self.orders_items.append(OrdersItem(self.orders_item_id, random.choice(self.dishes).dish_id, order.order_id))
+                self.orders_item_id += 1
 
         for dish in self.dishes:
             for _ in range(random.randint(1, 3)):
