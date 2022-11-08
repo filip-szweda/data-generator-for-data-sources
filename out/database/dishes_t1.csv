@@ -1,198 +1,199 @@
-0,Tuna sashimi,28.98,0
-1,Bruschette with Tomato,79.28,0
-2,Meatballs with sauce,21.21,0
-3,Bruschette with Tomato,54.38,1
-4,Chicken wings,78.06,1
-5,Chicken milanese,47.14,1
-6,Katsu Curry,27.83,2
-7,Chilli con carne,66.8,2
-8,Chicken milanese,45.54,3
-9,Scotch eggs,56.7,3
-10,Pizza,40.29,4
-11,Philadelphia maki,61.52,4
-12,Salmon nigiri,30.97,5
-13,Tiramisù,48.61,5
-14,Salmon nigiri,60.12,5
-15,Califlower penne,32.28,6
-16,Pasta with Tomato and Basil,22.34,7
-17,California maki,71.39,7
-18,Pasta Carbonara,47.95,7
-19,Linguine with clams,55.41,8
-20,Cheeseburger,49.26,8
-21,Barbecue Ribs,61.26,9
-22,Chicken wings,45.07,9
-23,Chilli con carne,59.62,9
-24,Scotch eggs,76.9,10
-25,Risotto with seafood,27.85,11
-26,Vegetable Soup,58.96,11
-27,Ricotta stuffed Ravioli,29.24,11
-28,Risotto with seafood,63.26,12
-29,Pizza,64.77,12
-30,Souvlaki,53.68,13
-31,Katsu Curry,40.64,14
-32,Philadelphia maki,38.12,15
-33,Caprese Salad,72.0,16
-34,Barbecue Ribs,48.07,16
-35,Fettuccine Alfredo,72.88,17
-36,Califlower penne,74.02,18
-37,Scotch eggs,40.34,18
-38,Tuna sashimi,74.79,19
-39,Barbecue Ribs,33.05,19
-40,Chicken Fajitas,49.26,19
-41,Pasta and Beans,39.64,20
-42,Risotto with seafood,75.59,20
-43,California maki,24.25,21
-44,Chilli con carne,74.14,21
-45,Lasagne,40.19,21
-46,Tiramisù,30.78,22
-47,Pork belly buns,43.28,22
-48,Chicken milanese,40.69,22
-49,Ebiten maki,42.93,23
-50,Philadelphia maki,61.96,24
-51,California maki,44.41,24
-52,Caesar Salad,22.07,25
-53,Meatballs with sauce,51.03,25
-54,Salmon nigiri,41.07,26
-55,Scotch eggs,70.86,27
-56,Caesar Salad,72.4,27
-57,Pasta Carbonara,51.46,28
-58,Bruschette with Tomato,71.5,29
-59,Barbecue Ribs,23.44,29
-60,Pasta with Tomato and Basil,37.42,30
-61,French fries with sausages,56.79,31
-62,Scotch eggs,24.2,31
-63,Meatballs with sauce,52.26,32
-64,Lasagne,36.24,32
-65,Lasagne,26.52,33
-66,Chicken wings,62.05,33
-67,Cheeseburger,26.83,34
-68,Caesar Salad,57.4,34
-69,French fries with sausages,32.47,34
-70,Pork belly buns,30.84,35
-71,Scotch eggs,76.67,35
-72,Risotto with seafood,24.87,35
-73,Caprese Salad,61.54,36
-74,Barbecue Ribs,79.47,36
-75,Barbecue Ribs,25.99,36
-76,Bruschette with Tomato,49.35,37
-77,Ricotta stuffed Ravioli,61.46,38
-78,Philadelphia maki,76.8,38
-79,Souvlaki,20.39,39
-80,Barbecue Ribs,22.82,40
-81,Barbecue Ribs,32.36,40
-82,Scotch eggs,56.6,41
-83,Chicken Fajitas,64.49,42
-84,Pasta and Beans,76.3,43
-85,French fries with sausages,21.25,43
-86,Fish and chips,43.76,44
-87,Pasta Carbonara,24.77,44
-88,Tuna sashimi,78.7,44
-89,Lasagne,75.04,45
-90,Fish and chips,66.44,45
-91,Pasta with Tomato and Basil,79.52,46
-92,Cheeseburger,39.95,46
-93,Risotto with seafood,30.79,47
-94,Vegetable Soup,28.58,47
-95,Meatballs with sauce,56.01,48
-96,Pasta Carbonara,30.71,49
-97,Barbecue Ribs,21.78,50
-98,Fish and chips,26.99,50
-99,Ricotta stuffed Ravioli,30.2,51
-100,California maki,38.85,52
-101,Pasta Carbonara,28.71,52
-102,Caprese Salad,75.57,52
-103,Caprese Salad,72.13,53
-104,Pork belly buns,68.15,53
-105,Cheeseburger,26.06,54
-106,Pork belly buns,58.14,55
-107,Pasta with Tomato and Basil,47.57,56
-108,Teriyaki Chicken donburi,52.84,56
-109,Fettuccine Alfredo,67.58,57
-110,Chicken wings,79.02,58
-111,Bruschette with Tomato,25.1,59
-112,Fettuccine Alfredo,66.8,59
-113,Pizza,65.65,60
-114,Pork belly buns,50.15,61
-115,Chilli con carne,74.65,61
-116,Chicken wings,22.64,61
-117,Cheeseburger,66.76,62
-118,Pasta with Tomato and Basil,46.09,63
-119,Caprese Salad,43.67,64
-120,Chicken wings,55.41,65
-121,Pasta with Tomato and Basil,59.19,65
-122,Chilli con carne,70.57,65
-123,Linguine with clams,21.11,66
-124,Scotch eggs,60.62,66
-125,Tiramisù,20.87,66
-126,Pappardelle alla Bolognese,44.76,67
-127,Katsu Curry,34.33,67
-128,Caprese Salad,67.6,67
-129,Pork belly buns,54.56,68
-130,Ebiten maki,53.07,68
-131,Pizza,25.58,69
-132,Caprese Salad,29.39,70
-133,Pizza,39.78,71
-134,Caprese Salad,41.99,71
-135,Pork sausage roll,77.22,71
-136,Salmon nigiri,24.71,72
-137,French fries with sausages,48.05,72
-138,Linguine with clams,32.95,73
-139,Chilli con carne,69.19,73
-140,Linguine with clams,52.92,73
-141,Meatballs with sauce,59.01,74
-142,Tiramisù,56.14,75
-143,Pappardelle alla Bolognese,74.34,75
-144,Pork sausage roll,36.14,76
-145,Califlower penne,36.17,76
-146,Pork sausage roll,44.81,76
-147,Chicken wings,49.0,77
-148,Pasta Carbonara,24.34,78
-149,Ricotta stuffed Ravioli,46.13,78
-150,French fries with sausages,59.77,79
-151,Risotto with seafood,66.76,79
-152,Teriyaki Chicken donburi,77.46,79
-153,Souvlaki,37.05,80
-154,Pasta with Tomato and Basil,53.91,80
-155,Barbecue Ribs,51.28,81
-156,Califlower penne,23.78,81
-157,Chicken Fajitas,52.81,82
-158,Chicken Fajitas,56.65,82
-159,Katsu Curry,23.43,82
-160,Souvlaki,52.97,83
-161,Teriyaki Chicken donburi,77.49,83
-162,Chicken milanese,31.21,83
-163,Chilli con carne,49.22,84
-164,Pasta with Tomato and Basil,62.22,84
-165,Ricotta stuffed Ravioli,30.58,85
-166,Salmon nigiri,67.63,85
-167,Pork sausage roll,27.07,85
-168,Linguine with clams,70.96,86
-169,Risotto with seafood,75.33,86
-170,Fish and chips,57.6,87
-171,Souvlaki,53.54,87
-172,Lasagne,78.05,88
-173,Risotto with seafood,56.8,88
-174,Chilli con carne,38.81,89
-175,Salmon nigiri,54.77,89
-176,Pasta with Tomato and Basil,46.44,89
-177,Pasta and Beans,71.43,90
-178,Cheeseburger,33.03,90
-179,Pasta Carbonara,61.54,90
-180,Pasta with Tomato and Basil,45.99,91
-181,Califlower penne,77.49,91
-182,Bruschette with Tomato,50.64,92
-183,Tiramisù,26.23,92
-184,Scotch eggs,34.07,93
-185,Pasta Carbonara,67.17,93
-186,Cheeseburger,41.31,94
-187,Scotch eggs,70.41,94
-188,Pork sausage roll,25.98,95
-189,Chicken Fajitas,33.21,95
-190,Pasta and Beans,20.55,95
-191,Tuna sashimi,48.56,96
-192,Chicken milanese,46.16,96
-193,Philadelphia maki,70.73,97
-194,Pork belly buns,20.59,97
-195,Fish and chips,67.16,97
-196,Ebiten maki,33.01,98
-197,Pork belly buns,45.74,99
+0,Katsu Curry with chinese cabbage,24.59,0
+1,Linguine with clams with wholewheat flour,50.18,1
+2,Pasta with Tomato and Basil with crabs,40.88,2
+3,Meatballs with sauce with lamb,20.6,2
+4,Cheeseburger with brussels sprouts,69.9,2
+5,Meatballs with sauce with wheat,57.23,3
+6,California maki with green pepper,56.82,3
+7,Chicken milanese with slivered almonds,75.73,4
+8,Chicken Fajitas with cos lettuce,36.87,4
+9,Chicken milanese with radish,78.13,5
+10,Mushroom Risotto with apples,77.01,5
+11,California maki with red cabbage,29.59,5
+12,Philadelphia maki with silverbeet,23.55,6
+13,Tuna sashimi with anchovies,55.2,7
+14,Pappardelle alla Bolognese with butternut lettuce,57.75,8
+15,Chicken milanese with mace,67.75,8
+16,Teriyaki Chicken donburi with peas,43.73,9
+17,Pork belly buns with turmeric,59.26,10
+18,Caesar Salad with yoghurt,23.29,11
+19,Fettuccine Alfredo with capers,20.61,11
+20,Chilli con carne with radicchio,55.11,11
+21,Tiramisù with flour,49.29,12
+22,Salmon nigiri with horseradish,54.81,12
+23,Mushroom Risotto with beetroot,35.69,12
+24,Pasta with Tomato and Basil with dandelion,50.14,13
+25,Risotto with seafood with cabbage,24.55,13
+26,Tuna sashimi with asparagus,76.08,13
+27,Pasta Carbonara with paprik,47.65,14
+28,Bruschette with Tomato with pear juice,36.0,14
+29,Fish and chips with lettuce,79.1,14
+30,Pork sausage roll with broccolini,72.77,15
+31,Pasta with Tomato and Basil with greenwheat freekeh,45.24,16
+32,Ebiten maki with potatoes,61.9,17
+33,Vegetable Soup with zucchini,73.69,18
+34,Philadelphia maki with sweet potato,76.43,19
+35,Linguine with clams with whitebread,36.19,19
+36,Meatballs with sauce with purple carrot,50.86,20
+37,Chicken wings with star fruit,37.94,21
+38,Souvlaki with butternut lettuce,47.52,21
+39,California maki with peas,48.95,21
+40,Bruschette with Tomato with potatoes,58.01,22
+41,Scotch eggs with zucchini,73.26,22
+42,Mushroom Risotto with turnips,59.57,22
+43,Lasagne with bean shoots,30.51,23
+44,Pappardelle alla Bolognese with buttermilk,32.11,23
+45,Cheeseburger with brussels sprouts,26.74,23
+46,Vegetable Soup with bean shoots,37.12,24
+47,Pappardelle alla Bolognese with endive,24.52,25
+48,Pork sausage roll with rice paper,24.98,25
+49,Barbecue Ribs with broccoli,32.13,26
+50,Mushroom Risotto with turnips,53.26,26
+51,Califlower penne with yoghurt,71.41,27
+52,Chilli con carne with celery,26.06,28
+53,Tuna sashimi with iceberg lettuce,25.13,29
+54,Philadelphia maki with baking powder,75.56,29
+55,Fish and chips with jicama,74.82,29
+56,California maki with red lentils,45.97,30
+57,Katsu Curry with carrot,50.83,30
+58,Fish and chips with celery,78.02,30
+59,Salmon nigiri with garlic,72.93,31
+60,Souvlaki with arrowroot,59.0,31
+61,California maki with beetroot,21.24,31
+62,Pasta Carbonara with sardines,62.95,32
+63,Chicken wings with hijiki,20.4,32
+64,Pasta with Tomato and Basil with beans,35.3,33
+65,Fettuccine Alfredo with asparagus,66.98,34
+66,Pork belly buns with kohlrabi,24.38,34
+67,Pork sausage roll with endive,78.37,34
+68,Teriyaki Chicken donburi with potatoes,46.9,35
+69,Bruschette with Tomato with monkfish,73.13,35
+70,Cheeseburger with radish,67.32,35
+71,Meatballs with sauce with asian greens,50.51,36
+72,Philadelphia maki with adzuki beans,52.33,36
+73,Califlower penne with squash,42.4,37
+74,Souvlaki with cabbage,63.61,37
+75,Souvlaki with margarine,29.89,37
+76,Risotto with seafood with purple carrot,59.46,38
+77,California maki with cocoa powder,61.77,38
+78,Califlower penne with kiwi fruit,58.04,39
+79,Pappardelle alla Bolognese with cos lettuce,53.46,39
+80,Chicken wings with cauliflower,55.69,40
+81,French fries with sausages with mozzarella,29.89,40
+82,Pasta with Tomato and Basil with asparagus,20.97,41
+83,Pasta Carbonara with fingerlime,40.68,42
+84,Chicken Fajitas with asparagus,40.43,42
+85,Souvlaki with green pepper,48.12,43
+86,Pasta with Tomato and Basil with peaches,72.95,44
+87,Bruschette with Tomato with rice noodles,57.19,44
+88,Pasta Carbonara with fromage blanc,60.37,44
+89,Pasta with Tomato and Basil with cacao,72.82,45
+90,Philadelphia maki with cucumber,76.93,46
+91,Tiramisù with albacore tuna,41.94,46
+92,Tiramisù with parrotfish,43.93,46
+93,Bruschette with Tomato with apple juice concentrate,56.98,47
+94,Ebiten maki with sweet potato,76.11,48
+95,Fish and chips with ricemilk,23.89,48
+96,Chilli con carne with cos lettuce,20.6,49
+97,California maki with fromage blanc,54.43,49
+98,California maki with tuna,23.68,49
+99,Pasta and Beans with avocado oil,29.46,50
+100,Souvlaki with saffron,57.97,51
+101,Caesar Salad with squash,46.25,52
+102,Pasta and Beans with cucumber,41.22,52
+103,Pasta Carbonara with bok choy,20.2,53
+104,California maki with red pepper,71.6,53
+105,Tuna sashimi with beetroot,32.19,54
+106,Pasta with Tomato and Basil with cucumber,54.95,54
+107,Chicken Fajitas with fish stock,77.76,55
+108,Pork sausage roll with coconut water,48.14,55
+109,Risotto with seafood with licorice,72.81,55
+110,Chilli con carne with jicama,60.62,56
+111,Pasta Carbonara with dandelion,29.03,57
+112,Ricotta stuffed Ravioli with kale,45.15,57
+113,Caprese Salad with mountain bread,78.33,57
+114,Pappardelle alla Bolognese with elderberry,60.36,58
+115,Pappardelle alla Bolognese with leeks,49.11,58
+116,Risotto with seafood with butternut lettuce,69.38,58
+117,Mushroom Risotto with rhubarb,77.01,59
+118,Pappardelle alla Bolognese with lettuce,70.69,59
+119,Chicken wings with raspberry,62.44,59
+120,Chicken milanese with bean shoots,45.61,60
+121,Fettuccine Alfredo with octopus,70.03,61
+122,Caesar Salad with spring onions,67.52,61
+123,Pappardelle alla Bolognese with radish,62.03,61
+124,Pasta and Beans with celery,76.16,62
+125,Bruschette with Tomato with barley,73.36,62
+126,Chicken Fajitas with kiwi fruit,75.33,62
+127,Tuna sashimi with broccoli,56.68,63
+128,Chicken wings with radicchio,50.44,63
+129,Philadelphia maki with sunflower seeds,28.72,64
+130,Barbecue Ribs with black eyed beans,39.82,64
+131,Chicken milanese with beetroot,55.7,64
+132,Caprese Salad with cucumber,23.76,65
+133,Pasta Carbonara with molasses,65.67,65
+134,Pork belly buns with green pepper,32.6,65
+135,Pasta Carbonara with kokam,38.55,66
+136,Ricotta stuffed Ravioli with endive,55.77,66
+137,Pasta Carbonara with spearmint,73.07,67
+138,Linguine with clams with purple carrot,72.04,67
+139,Ricotta stuffed Ravioli with scallops,35.88,68
+140,Pork belly buns with squash,46.77,69
+141,Chilli con carne with english spinach,32.45,70
+142,Pizza with dried chinese broccoli,44.1,71
+143,Cheeseburger with camembert,54.65,72
+144,Cheeseburger with green pepper,27.48,72
+145,Chicken Fajitas with beetroot,61.34,72
+146,Fish and chips with artichoke,42.79,73
+147,Pasta Carbonara with albacore tuna,50.19,74
+148,Pasta and Beans with red pepper,40.7,74
+149,Chicken Fajitas with rhubarb,72.66,75
+150,Pizza with barberry,25.88,75
+151,Souvlaki with sesame seed,23.5,76
+152,Fish and chips with hazelnut,79.6,77
+153,Chilli con carne with szechuan pepperberry,38.71,78
+154,Ricotta stuffed Ravioli with cabbage,28.55,78
+155,Tiramisù with eggplant,40.25,78
+156,Chicken wings with melon,76.83,79
+157,Ebiten maki with cranberry,22.15,79
+158,Caesar Salad with swiss chard,60.47,79
+159,Mushroom Risotto with taleggio cheese,24.84,80
+160,Pappardelle alla Bolognese with sweet potato,65.7,80
+161,Teriyaki Chicken donburi with tamari,57.35,81
+162,Pork sausage roll with okra,35.16,81
+163,Pizza with cucumber,39.37,81
+164,Pasta and Beans with red cabbage,30.78,82
+165,Katsu Curry with dashi,35.17,82
+166,Chicken wings with chinese cabbage,39.01,83
+167,Risotto with seafood with kale,72.61,84
+168,Caesar Salad with sun dried tomatoes,56.16,85
+169,Barbecue Ribs with cumquat,35.28,86
+170,Chicken milanese with sweet potato,78.4,86
+171,Pasta with Tomato and Basil with broccoli,46.86,86
+172,Philadelphia maki with radish,56.2,87
+173,Tiramisù with snowpea sprouts,72.6,87
+174,Meatballs with sauce with carob carrot,55.85,88
+175,Ebiten maki with safflower oil,66.0,88
+176,Chilli con carne with kohlrabi,62.1,88
+177,California maki with radish,48.84,89
+178,French fries with sausages with kale,26.83,90
+179,Ricotta stuffed Ravioli with asian greens,52.85,90
+180,Pasta with Tomato and Basil with capers,40.76,90
+181,Pizza with margarine,24.22,91
+182,Chicken wings with leeks,32.35,92
+183,Barbecue Ribs with chives,62.56,92
+184,Teriyaki Chicken donburi with sea salt,35.25,92
+185,French fries with sausages with bean sprouts,56.46,93
+186,Meatballs with sauce with pinto beans,59.3,93
+187,Fish and chips with broccoli,50.58,93
+188,Katsu Curry with bok choy,61.67,94
+189,Souvlaki with english spinach,64.02,94
+190,Califlower penne with okra,28.09,94
+191,Barbecue Ribs with rhubarb,59.67,95
+192,Pork belly buns with maple syrup,35.39,95
+193,Teriyaki Chicken donburi with oats,66.28,96
+194,Philadelphia maki with leeks,61.99,96
+195,Chicken Fajitas with asian greens,55.98,96
+196,Cheeseburger with squash,66.56,97
+197,Tuna sashimi with brown mushrooms,35.61,98
+198,Chicken wings with red wine vinegar,53.59,99
