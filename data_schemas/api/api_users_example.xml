@@ -4,11 +4,13 @@
                 <user>
                     <firstName>Filip</firstName>
                     <lastName>Szweda</lastName>
-                    <phoneNumber>123-123-123</phoneNumber>
+                    <countryCode>+48</countryCode>
+                    <phoneNumber>123123123</phoneNumber>
                 </user>
                 <user>
                     <firstName>Mateusz</firstName>
                     <lastName>Grzonka</lastName>
-                    <phoneNumber>999-999-100</phoneNumber>
+                    <countryCode>+48 1</countryCode>
+                    <phoneNumber>999999100</phoneNumber>
                 </user>
 </users>

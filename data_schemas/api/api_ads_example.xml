@@ -3,10 +3,10 @@
               xsi:noNamespaceSchemaLocation="api_ads.xsd">
                 <ad>
                     <id>0000000001</id>
-                    <numberOfClicksEveryDay>
+                    <clicksPerDay>
                         <day date="1997-05-16">12</day>
                         <day date="1997-05-17">12</day>
                         <day date="1997-05-18">12</day>
-                    </numberOfClicksEveryDay>
+                    </clicksPerDay>
                 </ad>
 </ads>
