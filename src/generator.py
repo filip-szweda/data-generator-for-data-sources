@@ -33,11 +33,11 @@ class Generator:
         for _ in range(c.USER_COUNT):
             self.users.append(UserXML(self.fake))
 
-        for id in range(c.DISH_COUNT):
-            self.dishes.append(Dish(self.fake, id))
+        for dish_id in range(c.DISH_COUNT):
+            self.dishes.append(Dish(self.fake, dish_id))
 
-        for id in range(c.ORDERS_COUNT):
-            self.orders.append(Order(self.fake, id, random.choice(self.users).phone_nb))
+        for order_id in range(c.ORDERS_COUNT):
+            self.orders.append(Order(self.fake, order_id, random.choice(self.users).phone_nb))
 
         for dish in self.dishes:
             for _ in range(random.randint(1, 3)):
@@ -49,10 +49,13 @@ class Generator:
 
         for order in self.orders:
             for _ in range(random.randint(1, 5)):
-                self.orders_items.append(OrdersItem(self.orders_item_id, random.choice(self.dishes).dish_id, order.order_id))
+                self.orders_items.append(
+                    OrdersItem(self.orders_item_id, random.choice(self.dishes).dish_id, order.order_id))
                 self.orders_item_id += 1
 
         for dish in self.dishes:
             for _ in range(random.randint(1, 3)):
-                self.promotions.append(Promotion(self.fake, self.promotion_id, dish.dish_id))
+                dish_ads = [ad for ad in self.ads_sql if ad.dish_id == dish.dish_id]
+                dish_ad_start_date = random.choice(dish_ads).start_date if dish_ads else None
+                self.promotions.append(Promotion(self.fake, self.promotion_id, dish.dish_id, dish_ad_start_date))
                 self.promotion_id += 1
