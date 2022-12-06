@@ -20,9 +20,13 @@ def save_data(generator, suffix):
 def main():
     generator = Generator()
 
-    generator.generate()  # for T1
+    # T1
+    generator.generate()
     save_data(generator, "_t1")
-    generator.generate()  # for T2
+
+    # T2
+    generator.update_dishes()
+    generator.generate()
     save_data(generator, "_t2")
 
 

@@ -25,19 +25,28 @@ class Generator:
         self.orders_items = []
         self.promotions = []
 
+        self.dish_id = 0
+        self.order_id = 0
         self.ad_sql_id = 0
         self.promotion_id = 0
         self.orders_item_id = 0
+
+    def update_dishes(self):
+        dishes_to_update = random.sample(self.dishes, c.DISHES_TO_UPDATE_IN_T2)
+        for dish in dishes_to_update:
+            dish.update(self.fake)
 
     def generate(self):
         for _ in range(c.USER_COUNT):
             self.users.append(UserXML(self.fake))
 
-        for dish_id in range(c.DISH_COUNT):
-            self.dishes.append(Dish(self.fake, dish_id))
+        for _ in range(c.DISH_COUNT):
+            self.dishes.append(Dish(self.fake, self.dish_id))
+            self.dish_id += 1
 
-        for order_id in range(c.ORDERS_COUNT):
-            self.orders.append(Order(self.fake, order_id, random.choice(self.users).phone_nb))
+        for _ in range(c.ORDERS_COUNT):
+            self.orders.append(Order(self.fake, self.order_id, random.choice(self.users).phone_nb))
+            self.order_id += 1
 
         for dish in self.dishes:
             for _ in range(random.randint(1, 3)):
