@@ -26,11 +26,11 @@ class Generator:
         self.orders_items = []
         self.promotions = []
 
-        self.dish_id = 0
-        self.order_id = 0
-        self.ad_sql_id = 0
-        self.promotion_id = 0
-        self.orders_item_id = 0
+        self.dish_id = 1
+        self.order_id = 1
+        self.ad_sql_id = 1
+        self.promotion_id = 1
+        self.orders_item_id = 1
 
     def update_dishes(self):
         dishes_to_update = random.sample(self.dishes, c.DISHES_TO_UPDATE_IN_T2)
