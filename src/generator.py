@@ -1,6 +1,7 @@
 import random
 from faker import Faker
 from faker_food import FoodProvider
+from copy import deepcopy
 
 import config as c
 from ad_xml import AdXML
@@ -57,10 +58,13 @@ class Generator:
             self.ads_xml.append(AdXML(ad_sql.ad_id, ad_sql.start_date, ad_sql.end_date))
 
         for order in self.orders:
+            unique_dishes = deepcopy(self.dishes)
             for _ in range(random.randint(1, 5)):
+                random_unique_dish = random.choice(unique_dishes)
                 self.orders_items.append(
-                    OrdersItem(self.orders_item_id, random.choice(self.dishes).dish_id, order.order_id))
+                    OrdersItem(self.orders_item_id, random_unique_dish.dish_id, order.order_id))
                 self.orders_item_id += 1
+                unique_dishes.remove(random_unique_dish)
 
         for dish in self.dishes:
             for _ in range(random.randint(1, 3)):
