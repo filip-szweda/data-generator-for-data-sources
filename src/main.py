@@ -25,9 +25,9 @@ def main():
     save_data(generator, "_t1")
 
     # T2
-    generator.update_dishes()
-    generator.generate()
-    save_data(generator, "_t2")
+    # generator.update_dishes()
+    # generator.generate()
+    # save_data(generator, "_t2")
 
 
 if __name__ == "__main__":
